@@ -1,0 +1,29 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #3ebe64, #2a7f4f);
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contenedor {
+    background: white;
+    padding: 20px;
+    border-radius: 30px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    width: 85%;
+    border-radius: 25px; 
+    border: 1px solid #000000;
+    outline: none;
+}
+
+#resultado {
+    margin-top: 20px;
+    text-align: left;
+}
