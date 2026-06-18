@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Estudiantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <h1>Formulario de registro</h1>
+
+        <form id="formulario">
+
+            <div class="fila">
+                <div class="grupo">
+                    <label>Cédula</label>
+                    <input type="text" id="cedula">
+                </div>
+
+                <div class="grupo">
+                    <label>Teléfono</label>
+                    <input type="text" id="telefono">
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="grupo">
+                    <label>Nombres</label>
+                    <input type="text" id="nombres">
+                </div>
+
+                <div class="grupo">
+                    <label>Apellidos</label>
+                    <input type="text" id="apellidos">
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="grupo">
+                    <label>Dirección</label>
+                    <input type="text" id="direccion">
+                </div>
+
+                <div class="grupo">
+                    <label>Correo Electrónico</label>
+                    <input type="text" id="correo">
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="grupo">
+                    <label>Facultad</label>
+                    <input type="text" id="facultad">
+                </div>
+
+                <div class="grupo">
+                    <label>Nivel</label>
+                    <input type="text" id="nivel">
+                </div>
+            </div>
+
+            <div class="fila">
+                <div class="grupo grupo-paralelo">
+                    <label>Paralelo</label>
+                    <input type="text" id="paralelo">
+                </div>
+            </div>
+
+    <button type="submit">Guardar</button>
+
+</form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Cédula</th>
+                    <th>Apellidos</th>
+                    <th>Nombres</th>
+                    <th>Facultad</th>
+                    <th>Nivel</th>
+                    <th>Paralelo</th>
+                </tr>
+            </thead>
+            <tbody id="tablaEstudiantes"></tbody>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
